@@ -4,7 +4,7 @@
 	"name" : "Jaydeep Resume",
 	"scope" : "/",
 	"display" : "standalone",
-	"start_url" : "https://jaydeepwork.herokuapp.com/index.php",
+	"start_url" : "./index.php",
 	"short_name" : "Jaydeep",
 	"theme_color" : "#754ef9",
 	"description" : "Jaydeep Resume In Your Mobile.",
