@@ -6,12 +6,12 @@
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
+    <meta name="description" content="jaydeep resume web app design web app">
+    <meta name="theme-color" content="#754ef9"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--====== Title ======-->
     <title>Jaydeep</title>
-
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
 
@@ -30,10 +30,26 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
-
+<script type="text/javascript">
+    if ("serviceWorker" in navigator) {
+          if (navigator.serviceWorker.controller) {
+            console.log("active service worker found, no need to register");
+          } else {
+            
+            navigator.serviceWorker
+              .register("./workers.js", {
+                scope: "./"
+              })
+              .then(function (reg) {
+                console.log("Service worker has been registered for scope: " + reg.scope);
+              });
+          }
+        }
+</script>
 </head>
 
 <body>
+
 
     <!--====== PRELOADER PART START ======-->
 
@@ -65,7 +81,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo.png" alt="Logo">
+                                <img src="assets/images/Jaydeep.png" alt="Logo">
                             </a> <!-- Logo -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
@@ -784,7 +800,7 @@
                     <div class="col-lg-8">
                         <div class="footer-content text-center">
                             <a href="index.html">
-                                <img src="assets/images/logo-2.png" alt="Logo">
+                                <img src="assets/images/Jaydeep.png" alt="Logo">
                             </a>
                             <p class="mt-">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <ul>
