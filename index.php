@@ -32,22 +32,12 @@
     
     <link rel='manifest' href='manifest.json'>
 
-<script type="text/javascript">
-    if ("serviceWorker" in navigator) {
-          if (navigator.serviceWorker.controller) {
-            console.log("active service worker found, no need to register");
-          } else {
-            
-            navigator.serviceWorker
-              .register("./workers.js", {
-                scope: "./"
-              })
-              .then(function (reg) {
-                console.log("Service worker has been registered for scope: " + reg.scope);
-              });
-          }
-        }
-</script>
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+    </script>
+    
 </head>
 
 <body>
