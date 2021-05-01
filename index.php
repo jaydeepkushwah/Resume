@@ -72,8 +72,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/Jaydeep.png" alt="Logo">
+                            <a class="navbar-brand" href="index.php">
+                                <img src="assets/images/pwa/72.png" alt="Logo">
                             </a> <!-- Logo -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
@@ -140,7 +140,8 @@
                     </div>
                     <div class="col-lg-6 offset-xl-1">
                         <div class="header-image d-none d-lg-block">
-                            <img src="assets/images/banner/hero.png" alt="hero">
+                            <!-- <img src="assets/images/banner/hero.png" alt="hero"> -->
+                            <img src="assets/images/undraw_feeling_proud_qne1.svg" alt="hero">
                         </div> <!-- header image -->
                     </div>
                 </div> <!-- row -->
@@ -152,8 +153,8 @@
                             <div class="header-social-icon">
                                 <ul>
                                     <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-original"></i></a></li>
-                                    <li><a href="#"><i class="lni-behance-original"></i></a></li>
+                                    <!-- <li><a href="#"><i class="lni-twitter-original"></i></a></li> -->
+                                    <!-- <li><a href="#"><i class="lni-behance-original"></i></a></li> -->
                                     <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
                                 </ul>
                             </div> <!-- header social -->
@@ -201,16 +202,6 @@
                                     </div>
                                     <div class="info-text">
                                         <p> jaydeepkushwah77@gmail.com</p>
-                                    </div>
-                                </div> <!-- single info -->
-                            </li>
-                            <li>
-                                <div class="single-info d-flex align-items-center">
-                                    <div class="info-icon">
-                                        <i class="lni-phone-handset"></i>
-                                    </div>
-                                    <div class="info-text">
-                                        <p> 9111434304</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -280,6 +271,22 @@
                         <div class="skill-item mt-25">
                             <div class="skill-header">
                                 <h6 class="skill-title">Angular</h6>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">50</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="50"></div>
+                                </div>
+                            </div>
+                        </div> <!-- skill item -->
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">PHP</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
                                         <span class="counter">50</span>
@@ -545,102 +552,6 @@
 
     <!--====== WORK PART ENDS ======-->
 
-    <!--====== PRICING PART START ======-->
-
-    <section id="pricing" class="pricing-area gray-bg pt-125 pb-130">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title text-center pb-25">
-                        <h2 class="title">My Pricing Plans</h2>
-                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-8 col-sm-9">
-                    <div class="single-pricing text-center mt-30">
-                        <div class="pricing-package">
-                            <h4 class="package-title">Basic</h4>
-                        </div>
-                        <div class="pricing-body">
-                            <div class="pricing-text">
-                                <p>Simple project management for teams and small businesses.</p>
-                                <span class="price">$19.00</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Unlimited Tasks</li>
-                                    <li>Unlimited Public</li>
-                                    <li>Private Projects</li>
-                                    <li>Unlimited Teams</li>
-                                    <li>All Integrations</li>
-                                    <li>Public API</li>
-                                </ul>
-                            </div>
-                            <div class="pricing-btn">
-                                <a class="main-btn" href="#contact">get quote</a>
-                            </div>
-                        </div>
-                    </div> <!-- single pricing -->
-                </div>
-                <div class="col-lg-4 col-md-8 col-sm-9">
-                    <div class="single-pricing active text-center mt-30">
-                        <div class="pricing-package">
-                            <h4 class="package-title">Standard</h4>
-                        </div>
-                        <div class="pricing-body">
-                            <div class="pricing-text">
-                                <p>Simple project management for teams and small businesses.</p>
-                                <span class="price">$39.00</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Unlimited Tasks</li>
-                                    <li>Unlimited Public</li>
-                                    <li>Private Projects</li>
-                                    <li>Unlimited Teams</li>
-                                    <li>All Integrations</li>
-                                    <li>Public API</li>
-                                </ul>
-                            </div>
-                            <div class="pricing-btn">
-                                <a class="main-btn" href="#contact">get quote</a>
-                            </div>
-                        </div>
-                    </div> <!-- single pricing -->
-                </div>
-                <div class="col-lg-4 col-md-8 col-sm-9">
-                    <div class="single-pricing text-center mt-30">
-                        <div class="pricing-package">
-                            <h4 class="package-title">Premium</h4>
-                        </div>
-                        <div class="pricing-body">
-                            <div class="pricing-text">
-                                <p>Simple project management for teams and small businesses.</p>
-                                <span class="price">$29.00</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Unlimited Tasks</li>
-                                    <li>Unlimited Public</li>
-                                    <li>Private Projects</li>
-                                    <li>Unlimited Teams</li>
-                                    <li>All Integrations</li>
-                                    <li>Public API</li>
-                                </ul>
-                            </div>
-                            <div class="pricing-btn">
-                                <a class="main-btn" href="#contact">get quote</a>
-                            </div>
-                        </div>
-                    </div> <!-- single pricing -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== PRICING PART ENDS ======-->
 
     <!--====== BLOG PART START ======-->
 
@@ -791,14 +702,14 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="footer-content text-center">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="assets/images/Jaydeep.png" alt="Logo">
                             </a>
                             <p class="mt-">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <ul>
                                 <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                <li><a href="#"><i class="lni-twitter-original"></i></a></li>
-                                <li><a href="#"><i class="lni-pinterest"></i></a></li>
+                                <!-- <li><a href="#"><i class="lni-twitter-original"></i></a></li> -->
+                                <!-- <li><a href="#"><i class="lni-pinterest"></i></a></li> -->
                                 <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
                             </ul>
                         </div> <!-- footer content -->
@@ -811,7 +722,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
-                            <p>Copyright © 2022. Template Crafted by <a href="#" rel="nofollow">Jaydeep</a></p>
+                            <p>Copyright © 2021. by <a href="index.php" rel="nofollow">Jaydeep</a></p>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->
@@ -826,10 +737,6 @@
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
     <!--====== BACK TOP TOP PART ENDS ======-->
-
-
-
-
 
 
 
