@@ -29,6 +29,8 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel='manifest' href='manifest.json'>
 
 <script type="text/javascript">
     if ("serviceWorker" in navigator) {
